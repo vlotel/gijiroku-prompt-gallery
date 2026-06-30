@@ -189,7 +189,7 @@ async function copyPrompt(item, card) {
     document.execCommand("copy");
     document.body.removeChild(ta);
   }
-  showToast("「" + item.title + "」のプロンプトをコピーしました ✓");
+  showToast("「" + item.title + "」をコピー ✓ ChatGPTやGeminiに貼り付けて送信してください");
   card.classList.add("copied");
   setTimeout(() => card.classList.remove("copied"), 900);
 }
