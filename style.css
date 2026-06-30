@@ -39,13 +39,13 @@ body {
   gap: 14px;
   padding: 0;
   margin: 26px auto 0;
-  max-width: 720px;
+  max-width: 920px;
 }
 .howto li {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  flex: 1 1 200px;
+  flex: 1 1 190px;
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 12px;
