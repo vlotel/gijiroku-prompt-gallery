@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>議事録プロンプトギャラリー</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>📝 議事録プロンプトギャラリー</h1>
+    <p class="lead">
+      生成AIで、議事録や打ち合わせの文字起こしを見やすい画像にまとめるためのプロンプト集です。<br />
+      気に入ったデザインの<strong>カードをクリック</strong>すると、プロンプトをコピーできます。
+    </p>
+    <div class="filter-bar" id="filterBar"></div>
+  </header>
+
+  <main>
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>コピーしたプロンプトの末尾の貼り付け欄に、議事録でも文字起こし・メモでも、ご自身の会議内容を貼り付けて使ってください。</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="prompts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
