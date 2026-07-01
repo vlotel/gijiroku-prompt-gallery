@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="bgGradR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b7bff"/><stop offset="1" stop-color="#3a4fca"/>
+    </linearGradient>
+    <linearGradient id="paperGradR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f2efe6"/>
+    </linearGradient>
+    <linearGradient id="paperBackGradR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eae7da"/><stop offset="1" stop-color="#d9d5c5"/>
+    </linearGradient>
+    <linearGradient id="metalGradR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f5f7"/><stop offset="0.5" stop-color="#b7bcc6"/><stop offset="1" stop-color="#787e8a"/>
+    </linearGradient>
+    <linearGradient id="penGradR" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0" stop-color="#24399e"/><stop offset="1" stop-color="#6884ff"/>
+    </linearGradient>
+    <radialGradient id="shadowGradR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#10142a" stop-opacity="0.32"/><stop offset="1" stop-color="#10142a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tileClipA"><rect width="120" height="120" rx="27"/></clipPath>
+  </defs>
+
+  <rect width="120" height="120" rx="27" fill="url(#bgGradR)"/>
+  <g clip-path="url(#tileClipA)">
+    <ellipse cx="60" cy="105" rx="38" ry="9" fill="url(#shadowGradR)"/>
+    <rect x="24" y="23" width="76" height="78" rx="6" fill="url(#paperBackGradR)" stroke="#cdc8b8" stroke-width="1" transform="rotate(-6 62 62)"/>
+    <rect x="17" y="17" width="82" height="84" rx="6" fill="url(#paperGradR)" stroke="#e2ded1" stroke-width="1.2"/>
+    <g stroke="#aebde0" stroke-width="1.3">
+      <line x1="30" y1="34" x2="76" y2="34" opacity="0.9"/>
+      <line x1="30" y1="44" x2="92" y2="44" opacity="0.75"/>
+      <line x1="30" y1="54" x2="92" y2="54" opacity="0.85"/>
+      <line x1="30" y1="64" x2="92" y2="64" opacity="0.75"/>
+      <line x1="30" y1="74" x2="92" y2="74" opacity="0.85"/>
+      <line x1="30" y1="84" x2="92" y2="84" opacity="0.7"/>
+      <line x1="30" y1="94" x2="92" y2="94" opacity="0.6"/>
+    </g>
+    <line x1="36" y1="21" x2="36" y2="99" stroke="#e0637d" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <rect x="41" y="26" width="38" height="7" rx="3.2" fill="url(#penGradR)" transform="rotate(-1 60 29)"/>
+    <rect x="41" y="39" width="34" height="8" rx="2" fill="#ffe066" opacity="0.55" transform="rotate(-1 58 43)"/>
+    <rect x="43" y="41" width="26" height="3.6" rx="1.8" fill="#2f4bb8" opacity="0.92"/>
+    <rect x="41" y="49" width="30" height="3.6" rx="1.8" fill="#7f95dd"/>
+    <rect x="41" y="59" width="44" height="3.6" rx="1.8" fill="#7f95dd"/>
+    <rect x="41" y="69" width="24" height="3.6" rx="1.8" fill="#7f95dd"/>
+    <rect x="41" y="79" width="38" height="3.6" rx="1.8" fill="#7f95dd"/>
+    <g>
+      <ellipse cx="27" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="27" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+      <ellipse cx="39" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="39" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+      <ellipse cx="51" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="51" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+      <ellipse cx="63" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="63" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+      <ellipse cx="75" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="75" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+      <ellipse cx="87" cy="17" rx="4" ry="5.2" fill="url(#metalGradR)" stroke="#6b7280" stroke-width="0.6"/>
+      <ellipse cx="87" cy="17" rx="1.5" ry="2.3" fill="url(#bgGradR)"/>
+    </g>
+    <g transform="rotate(38 88 90)">
+      <rect x="60" y="86" width="46" height="9" rx="4.5" fill="url(#penGradR)" stroke="#1c2f80" stroke-width="0.8"/>
+      <rect x="98" y="87" width="11" height="4" rx="1.6" fill="url(#metalGradR)"/>
+      <polygon points="56,86 60,90.5 60,82" fill="#2a2a33"/>
+      <circle cx="55" cy="90.5" r="1.2" fill="#1c2f80"/>
+    </g>
+  </g>
+</svg>
